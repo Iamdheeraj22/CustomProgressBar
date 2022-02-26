@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Custom ProgressBar</string>
+    <string name="please_wait">Please wait..</string>
+    <string name="show_dialog">Show Dialog</string>
+</resources>
