@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                AlertDialog alertDialog=new AlertDialog.Builder(getApplicationContext()).create();
+                AlertDialog alertDialog=new AlertDialog.Builder(MainActivity.this).create();
                 View view1= LayoutInflater.from(getApplicationContext()).inflate(R.layout.custom_progress_dialog
                         ,null,false);
                 alertDialog.setView(view1);
